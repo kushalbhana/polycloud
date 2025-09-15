@@ -39,14 +39,8 @@ pnpm install
 
 ### 3. Run the development environment
 ```bash
-pnpm run dev
+pnpm start
 ```
-
-polycloud/
- ├── apps/         # Frontend, backend services
- ├── packages/     # Shared utilities, components, configs
- ├── turbo.json    # Turborepo configuration
- └── README.md
 
 ## 🤝 Contributing
 Contributions are welcome!
