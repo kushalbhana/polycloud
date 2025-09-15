@@ -1,0 +1,33 @@
+name: Build on PR
+
+on:
+  push:
+    branches
+      - "main"
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+        with:
+            version: 9.0.0
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+          cache-dependency-path: 'pnpm-lock.yaml'
+      
+      - name: Install Dependencies
+        run: pnpm install
+      
+      -name: Apply Linting
+        run: pnpm lint
+
+      - name: Run Build
+        run: npm run build
