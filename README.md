@@ -1,7 +1,6 @@
 # 🌩️ Polycloud
 
-**Polycloud** is a **multi-cloud deployment and migration platform** that lets you **migrate resources between cloud providers in one click**.  
-It leverages **AI-driven cost optimization** to **deploy workloads on the most cost-effective platform automatically**.
+**Polycloud** is a multi-cloud deployment and migration platform that lets you migrate resources between cloud providers in one click. It leverages AI-driven cost optimization to deploy workloads on the most cost-effective platform automatically.
 
 ---
 
