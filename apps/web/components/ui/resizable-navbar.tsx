@@ -10,8 +10,7 @@ import {
 
 import React, { useRef, useState } from "react";
 import Image from 'next/image';
-
-
+import Logo from "../home/logo";
 
 interface NavbarProps {
   children: React.ReactNode;
@@ -238,11 +237,12 @@ export const NavbarLogo = () => {
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
       <Image
-        src="polycloud-logo.png"
+        src="/polycloud-logo(1).png"
         alt="logo"
-        width={200}
-        height={200}
+        width={70}
+        height={70}
       />
+      <Logo/>
       <span className="font-medium text-black dark:text-white"></span>
     </a>
   );
