@@ -1,31 +1,33 @@
 # 🌩️ Polycloud
 
-Polycloud is an AI-powered multi-cloud deployment and migration platform that helps you seamlessly move workloads across cloud providers with a single click. It automatically analyzes pricing and performance to deliver cost-optimized deployments on AWS, Azure, GCP, and more. With Polycloud, you can eliminate vendor lock-in, reduce infrastructure costs, and simplify multi-cloud management.
+Polycloud is an AI-powered multi-cloud deployment and migration platform that enables you to seamlessly deploy, manage, and migrate workloads across AWS, Azure, GCP, and other cloud providers with a single click. It offers built-in CI/CD pipelines, automated health checks, and instant rollbacks to ensure high availability and minimal downtime. In case of vendor failure, Polycloud performs auto-migration to other cloud providers, helping you eliminate vendor lock-in, reduce infrastructure costs, and simplify multi-cloud management with cost-optimized deployments.
 
 ---
 
 ## 🚀 Features
 
-- 🌐 **Multi-Cloud Support** — Deploy across AWS, GCP, Azure, and more
-- ⚡ **One-Click Migration** — Seamlessly move workloads between cloud providers
-- 🤖 **AI Cost Optimization** — Analyze pricing and performance to deploy on the best-fit platform
-- 📦 **Monorepo Architecture** — Built using [Turborepo](https://turbo.build) for scalable development
-- 🛡️ **Secure and Reliable** — Safe migration and deployment handling with robust error recovery
+- **Multi-Cloud Support** — Deploy and manage workloads across AWS, Azure, GCP, and more from a unified platform.
+- **One-Click Migration** — Instantly move applications between cloud providers with zero downtime.
+- **AI Cost Optimization** — Analyze pricing and performance to deploy on the most cost-efficient cloud.
+- **Monorepo Architecture** — Built using [Turborepo](https://turbo.build) for scalable development
+- **Secure and Reliable** — Ensure safe deployments with health checks, instant rollbacks, and automated recovery.
+- **CI/CD Integration** — Streamlined continuous integration and delivery pipelines for faster releases.
+- **Auto Migration on Vendor Failure** — Automatically shift workloads during provider outages to ensure uptime.
 
 ---
 
 ## 🏗️ Tech Stack
 
-- **Framework:** [Turborepo](https://turbo.build)
-- **Languages:** TypeScript / JavaScript
-- **Infrastructure:** Docker, Kubernetes, Terraform (optional)
+- **Framework:** Next.js, Node.js, Turborepo
+- **Languages:** TypeScript
+- **Infrastructure:** Docker, Kubernetes, Terraform
 - **Cloud Providers:** AWS, GCP, Azure, and others
 - **AI Layer:** Cost prediction & recommendation engine
 
 ---
 
 ## ⚙️ Getting Started
-
+First fork the repo
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/<your-username>/polycloud.git
